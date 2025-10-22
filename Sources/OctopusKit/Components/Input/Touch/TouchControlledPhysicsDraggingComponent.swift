@@ -12,7 +12,7 @@
 
 import SpriteKit
 import GameplayKit
-
+import OctopusCore
 #if canImport(UIKit)
 
 /// Allows the player to drag the entity's `PhysicsComponent` body based on input from the entity's `NodeTouchStateComponent`.

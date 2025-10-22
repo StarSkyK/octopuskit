@@ -7,7 +7,7 @@
 //
 
 import GameplayKit
-
+import OctopusCore
 #if os(macOS)
 
 /// A "dummy" base class for components that are not compatible with iOS.
