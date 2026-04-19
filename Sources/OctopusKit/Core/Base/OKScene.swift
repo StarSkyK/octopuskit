@@ -458,7 +458,7 @@ open class OKScene: SKScene,
     /// For an overview of the SpriteKit frame cycle, see: https://developer.apple.com/documentation/spritekit/skscene/responding_to_frame-cycle_events
     ///
     /// - IMPORTANT: If this method is overridden, `super.update(currentTime)` **must** be called for correct functionality (before any other code in most cases), and the subclass should also recheck `isPaused`, `isPausedBySystem`, `isPausedByPlayer` and `isPausedBySubscene` flags.
-    public override func update(_ currentTime: TimeInterval) {
+    open override func update(_ currentTime: TimeInterval) {
         
         // #1: Reset single-frame flags.
         
